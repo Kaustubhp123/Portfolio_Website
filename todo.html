@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todo_styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="navleftSection">
+            Kaustubh's Portfolio
+        </div>
+        <div class="navrightSection">
+            <ul>
+                <li><a href="/#Home">Home</a></li>
+                <li><a href="/#About me">About Me</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/#Contact Me">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main style="background-color: rgb(0, 0, 33); color: white;">
+    <h1>Todo List</h1>
+    <input type="text" id="taskInput" placeholder="Add new task">
+    <button onclick="addTask()">Add Task</button>
+    <input type="text" id="searchInput" placeholder="Search tasks">
+    <button onclick="searchTasks()">Search</button>
+    <ul id="taskList"></ul>
+</main>
+
+<footer>
+    <div class="footer-top">
+        Connect with me
+    </div>
+    <div class="footer-bottom">
+        <div class="icons"><img src="instagram-removebg-preview.png" alt="instagram"></div>
+        <div class="icons"><img src="github.png" alt="github"></div>
+        <div class="icons"><img src="linkedIn-removebg-preview.png" alt="linkedin"></div>
+        <div class="icons"><img src="twitter1-removebg-preview.png" alt="twitter"></div>
+        <div class="icons"><img src="facebook.png" alt="facebook"></div>
+    </div>
+
+    <div class="text-gray">Copyright &#169; kaustubhsportfolio.in | All Rights Reserved.</div>
+</footer>
+
+<script src="todo_script.js"></script>
+</body>
+</html>

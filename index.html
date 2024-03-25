@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navleftSection">
+                Kaustubh's Portfolio
+            </div>
+            <div class="navrightSection">
+                <ul>
+                    <li><a href="/#Home">Home</a></li>
+                    <li><a href="/#About me">About Me</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/#Contact Me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Home" class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Kaustubh</span>
+                <div>and I am a passionate <span id="element"></span></div>
+
+               <a href="https://drive.google.com/file/d/1eL8T1jzNNibq491LEWUo8RO3zYg9YU2e/view?usp=sharing"><button class="btn">Download Resume</button></a> 
+               <a href="https://github.com/Kaustubhp123"><button class="btn">Visit Github</button></a> 
+            </div>
+            <div class="rightSection">
+                <img src="bgsimple.png" alt="Developer_Image">
+            </div>
+        </section>
+
+        <hr>
+
+
+        <section id="About me" class="secondSection">
+            <div class="left-SecondSection">
+                <img src="About_me1.png" alt="About Me Image">
+            </div>
+            <div class="right-SecondSection">
+                <h2>About Me</h2>
+                <div class="desc">Driven by a passion for technology and innovation, I am a dedicated B.Tech graduate
+                    specializing in AI & DS from Vishwakarma Institute of Technology, Pune. With expertise in areas like
+                    machine learning, web development, and database management, I strive to harness my skills to develop
+                    impactful solutions. Alongside my academic pursuits, I actively contribute to projects and
+                    publications, aiming to make a meaningful difference in the world of technology.</div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="Contact Me" class="thirdSection">
+            <div class="left-thirdSection">
+                <h2>Contact Me</h2>
+                <div class="input-form">
+                    <input placeholder="Enter Your Name" type="text">
+
+                </div>
+                <div class="input-form1">
+                    <input placeholder="Enter Your Email" type="email" name="" id="">
+                </div>
+
+                <div class="button1">
+                    <button class="btn-submit">
+                        Submit
+                    </button>
+                </div>
+            </div>
+            <div class="right-thirdSection">
+                <img src="contact_me-removebg-preview.png" alt="Contact Me Image">
+            </div>
+        </section>
+
+        <hr>
+
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            Connect with me
+        </div>
+        <div class="footer-bottom">
+            <div class="icons"> <a href="https://www.instagram.com/kaustubh_p123/"><img src="instagram-removebg-preview.png" alt="instagram"></a> </div>
+            <div class="icons"> <a href="https://github.com/Kaustubhp123"> <img src="github.png" alt="github"></a></div>
+            <div class="icons"> <a href="https://www.linkedin.com/in/kaustubhparalkar/"><img src="linkedIn-removebg-preview.png" alt="linkedin"></a></div>
+            <div class="icons"><img src="twitter1-removebg-preview.png" alt="twitter"></div>
+            <div class="icons"><img src="facebook.png" alt="facebook"></div>
+        </div>
+
+        <div class="text-gray">Copyright &#169; kaustubhsportfolio.in | All Rights Reserved.</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'Data Analyst', 'Full Stack Developer', 'AI and ML Engineer'],
+            typeSpeed: 20
+        });
+    </script>
+</body>
+
+</html>

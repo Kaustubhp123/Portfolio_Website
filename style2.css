@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: rgb(18, 18, 62);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(188, 132, 241);
+    font-size: 1.1rem;
+
+}
+
+.navleftSection {
+    font-size: 1.5rem;
+}
+
+.navrightSection {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 260px;
+    background-color: rgb(150, 106, 192);
+}
+
+.footer-top {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    padding: 40px 0;
+    font-weight: 500;
+
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* Adjust margin as needed */
+}
+
+.icons {
+    margin: 0 10px;
+    /* Adjust margin as needed */
+}
+
+.icons img {
+    width: 40px;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 0 10px;
+    /* Adjust margin as needed */
+}
+
+.purple {
+    color: rgb(188, 132, 241);
+}
+
+.text-gray {
+    color: black;
+    text-align: center;
+    margin: 23px 0;
+}
+
+#element {
+    color: rgb(188, 132, 241);
+}
